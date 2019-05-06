@@ -1,0 +1,50 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+header {
+    position: relative;
+    z-index: 99;
+}
+
+.top-bar {
+    width: 100%;
+    padding: 0 0.5rem;
+    background-color: #fff;
+    opacity: .95;
+    -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.15);
+    box-shadow: 0 1px 5px rgba(0,0,0,0.15);
+}
+
+.sticky.is-stuck {
+    position: fixed;
+    z-index: 5;
+}
+
+
+.sticky.is-stuck.is-at-top {
+    top: 0;
+}
+
+.top-bar > div > div {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+}
+
+
+
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px,1px,1px,1px);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    word-wrap: normal;
+}
+
+img.logo {
+    padding: 1.5rem 0;
+}
