@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 </head>
 <body>
-    <a id="skip-to-content" href="#content">Skip to the content.</a>
+    <a id="skip-to-content" class="visually-hidden" href="#content">Skip to the content.</a>
     <header>
         <div class="top-bar sticky is-at-top is-stuck">
             <div class="row">
@@ -26,12 +26,13 @@
                     <div class="region region-header-logo">
                         <nav role="navigation" aria-labelledby="block-logo-menu" id="block-logo"
                             class="block--system-menu-blocklogo block--system-menu-blocklogo--12676 block--header-logo--system-menu-block--logo block--header-logo--system-menu-block--logo--12676 block--86a2bb66-8d12-4852-ae31-5b0d63c5bb9b block--86a2bb66-8d12-4852-ae31-5b0d63c5bb9b--12676 block block-menu navigation block-system-menublock menu--logo">
-                            <h2 class="visually-hidden" id="block-logo-menu">Logo</h2>
-                            <a href="/" alt="Spark Networks Logo" title="Spark Networks Logo">
-                                <img class="logo"
-                                    src="https://www.spark.net/sites/g/files/knoqqb38191/themes/site/nir_pid775/dist/images/logo.png"
-                                    alt="Spark Networks Logo" title="Spark Networks Logo">
-                            </a>
+                            <h2 id="block-logo-menu">
+                                <a href="/" alt="Spark Networks Logo" title="Spark Networks Logo">
+                                    <img class="logo"
+                                        src="https://www.spark.net/sites/g/files/knoqqb38191/themes/site/nir_pid775/dist/images/logo.png"
+                                        alt="Spark Networks Logo" title="Spark Networks Logo">
+                                </a>
+                            </h2>
                         </nav>
                     </div>
                 </div>
