@@ -1,4 +1,7 @@
 theme: jekyll-theme-cayman
 
+# Build settings
+markdown: kramdown
+
 plugins:
-  - remote_markdown
+  - jekyll-feed
